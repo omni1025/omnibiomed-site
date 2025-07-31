@@ -8,10 +8,35 @@ body {
 }
 
 header {
-  background-color: #0077b6;
+  background-color: #007acc;
   color: white;
   padding: 20px 10px;
-  text-align: center;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+  background-color: #007acc;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.title-text h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.title-text p {
+  margin: 4px 0 0 0;
+  font-size: 16px;
 }
 
 header h1 {
